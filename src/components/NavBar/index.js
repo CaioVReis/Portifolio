@@ -8,7 +8,7 @@ initTE({ Ripple });
 
 const NavBar = () => {
     return (
-        <nav className="w-[100%] h-[60px]  fixed z-10 hidden  md:flex">
+        <div className="w-[100%] h-[60px]  fixed z-10 hidden  md:flex">
 
             <div className="w-[320px] h-[100%] bg-[#111010]">
                 <a href="#ss">
@@ -20,7 +20,7 @@ const NavBar = () => {
                 </a>
             </div>
 
-
+          
 
 
             <div className="w-[640px] h-[100%] bg-[#111010] md:flex justify-evenly hidden">
@@ -44,8 +44,8 @@ const NavBar = () => {
 
                 </button>
             </div>
-
-        </nav>
+          
+        </div>
     )
 }
 

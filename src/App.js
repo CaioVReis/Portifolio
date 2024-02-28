@@ -5,14 +5,8 @@ import Sobre from "./components/Sobre"
 import Projects from "./components/projects/index"
 import Rodape from "./components/rodape/index"
 import SobreMobile from "./components/sobreMobile/index"
-import {
-  Animate,
-  initTE,
-} from "tw-elements";
-import Contato from "./components/contato";
-
-
-initTE({ Animate });
+import Contato from "./components/contato"
+import MobileProjects from "./components/projectsMobile/index"
 
 export default function App() {
 
@@ -20,29 +14,33 @@ export default function App() {
 
   return (
     <>
-      
 
-      <nav className="ContainerPrimary  w-[100%] h-[70px]">
-        <NavBar />
-      </nav>
-      <body className="ContainerPrimary  md:w-[100%] md:h-[730px]  ">
+      <header>
+        <nav className="ContainerPrimary  w-[100%] h-[70px]">
+          <NavBar />
+        </nav>
+      </header>
+      <main className="ContainerPrimary  md:w-[100%] md:h-[730px]  ">
+        
 
-        <Banner />
+          <Banner />
 
-        <Especialidades />
+          <Especialidades />
 
-        <Sobre />
-        <SobreMobile hidden="hidden"/>
+          <Sobre />
+          <SobreMobile />
 
-        <Projects />
+          <Projects />
+          <MobileProjects/>
 
-        <Contato />
+          <Contato />
 
-        <Rodape/>
+          <Rodape />
 
-
-      </body>
      
+
+      </main>
+
 
     </>
 

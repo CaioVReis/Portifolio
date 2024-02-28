@@ -8,7 +8,7 @@ const Cardsproject = ({
                 alt="projetoNumberOne"
                 className="h-[256px] w-[100%] rounded-md"
             />
-            <h1 className="text-white font-bold text-2xl mt-[12px] flex justify-center">{tittle}<p className="text-[#00f7ef]">.</p></h1>
+            <h1 className="text-white font-bold text-2xl mt-[12px] flex justify-center">{tittle}<span className="text-[#00f7ef]">.</span></h1>
             <p className=" w-[80%] h-[180px] ml-[39px] text-lg text-white font-sans p-3">{disc}</p>
             <a href="#">
             <button
@@ -20,6 +20,7 @@ const Cardsproject = ({
                       Acessar
                     </button></a>
         </div>
+
 
     )
 }
