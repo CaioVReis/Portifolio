@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+
+
+
+
+body{
+    background-color: #111010;
+}
+.ContainerPrimary{
+    max-width: 1280px;
+    margin-inline: auto;
+    
+}
+
+
+.backgroudNavbar{
+    background-image: linear-gradient(to right bottom, #1d292a, #223132, #273a3b, #2d4244, #324b4d);
+}
+
+.Colorbase{
+    background-color: #111010;
+}
+
+
+@keyframes flutuar {
+    0% {
+      top:0;
+    }
+    100% {
+       top:30px;
+    }
+}
+.flutuar {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+
+form label{
+    color: #f5f5f5;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+form input:focus{
+    border-radius: 16px;
+}
+
+form textarea{
+    transition: all 0.5s;
+    max-height: 255px;
+    resize: none;
+ 
+}
+
+form textarea:focus{
+    border-radius: 16px;
+}
+
+form button{
+    transition: all 1s;
+}
+
+
+form button:hover{
+    border-radius: 16px;
+    color: #000;
+    background-color: #f5f5f5;
+
+}
+
+
+
+
+.none{
+    display: none;
+}
