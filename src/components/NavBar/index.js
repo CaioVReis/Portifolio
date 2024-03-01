@@ -1,4 +1,5 @@
 import Icons from "../icons/index"
+import Buttoncv from "../ButtonCV/index"
 import {
     Ripple,
     initTE,
@@ -31,8 +32,9 @@ const NavBar = () => {
             </div>
 
 
-            <div className="w-[320px] h-[100%] bg-[#111010] flex justify-evenly ">
-                <button className="ml-[100px]">
+            <div className="w-[320px] h-[100%]  bg-[#111010] flex justify-evenly ">
+           
+              <button className="ml-[100px]">
                     <a href="#Contato">
                         <p
                             data-te-ripple-init
@@ -42,7 +44,7 @@ const NavBar = () => {
                             Contato
                         </p></a>
 
-                </button>
+                </button> 
             </div>
           
         </div>

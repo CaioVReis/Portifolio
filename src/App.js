@@ -7,6 +7,7 @@ import Rodape from "./components/rodape/index"
 import SobreMobile from "./components/sobreMobile/index"
 import Contato from "./components/contato"
 import MobileProjects from "./components/projectsMobile/index"
+import NavMobile from "./components/Navmobile/index"
 
 export default function App() {
 
@@ -18,6 +19,7 @@ export default function App() {
       <header>
         <nav className="ContainerPrimary  w-[100%] h-[70px]">
           <NavBar />
+          <NavMobile/>
         </nav>
       </header>
       <main className="ContainerPrimary  md:w-[100%] md:h-[730px]  ">

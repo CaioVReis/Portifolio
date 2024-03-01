@@ -33,7 +33,7 @@ const Rodape = () => {
 
                 </div>
             </div>
-            <div className="md:hidden"><p className="text-white text-2xl p-3 mt-5">Kaioviniciosvlk5@gmail.com</p></div>       {/*mobile*/}
+            <div className="md:hidden"><p className="text-white text-2xl mt-2 text-center">Kaioviniciosvlk5@gmail.com</p></div>       {/*mobile*/}
             <div className=" hidden md:block"><p className="text-white text-2xl mt-1">Kaioviniciosvlk5@gmail.com</p></div>   {/*desktop*/}
         </div>
 

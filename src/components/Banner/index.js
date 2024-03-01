@@ -29,7 +29,7 @@ const Banner = () => {
 
             </div>
 
-            <div className=" w-[100%] flex justify-center h-[100%]">
+            <div className=" w-[100%] flex justify-center mt-20 md:mt-0 h-[100%]">
 
                 <figure className="">
                     <img

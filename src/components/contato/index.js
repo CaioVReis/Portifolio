@@ -9,6 +9,8 @@ initTE({ Input });
 const Contato = () => {
     function Alert() {
         alert("Seu email foi enviado com sucesso")
+
+        
     }
     return (
         <div className="w-[100%] h-[100%] bg-[#111010] md:mt-0 mt-[150px] " id="Contato">

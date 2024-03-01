@@ -61,8 +61,8 @@ const MobileProjects = () => {
     };
 
     return (
-        <div className="w-[100%]  h-[800px] md:hidden mt-[110px] ">
-            <h2 className="text-white text-3xl w-[100%] h-[40px] flex uppercase justify-center gap-3  font-bold">Meus<span className="text-[#00f7ef]">Projetos.</span></h2>
+        <div className="w-[100%]  h-[900px]  md:hidden mt-[180px] "id='Projetos1'>
+            <h2  className="text-white text-3xl w-[100%] h-[40px] flex uppercase justify-center gap-3  font-bold">Meus<span className="text-[#00f7ef]">Projetos.</span></h2>
             <Swiper
                 spaceBetween={30}
                 centeredSlides={true}

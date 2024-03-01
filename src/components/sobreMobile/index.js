@@ -2,8 +2,8 @@ import Button from "../buttons/index"
 
 const SobreMobile = () => {
     return (
-        <div className="md:hidden bg-[#111010]">
-            <div className="w-[100%] h-[990px] ">
+        <div className="md:hidden bg-[#111010]" id="Sobre1">
+            <div className="w-[100%] h-[990px] " >
                 <p className="text-white text-3xl font-bold text-center mt-10">Olá muito prazer, sou</p>
                 <p className="uppercase  text-2xl font-bold italic text-center text-[#00f7ef]">caio vinicius.</p>
                 <div className="w-[100%]  h-[500px] flex justify-center">
