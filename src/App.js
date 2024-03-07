@@ -11,6 +11,33 @@ import NavMobile from "./components/Navmobile/index"
 
 export default function App() {
 
+  window.addEventListener("load", () => {
+    const MyObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting){
+          entry.target.classList.add('Show')
+        }
+        else{
+          entry.target.classList.remove('Show')
+        }
+    })
+    })
+
+    const elements = document.querySelectorAll('.NoShow')
+
+    elements.forEach((element) => MyObserver.observe(element))
+
+
+
+
+
+
+
+
+
+  })
+
+
 
 
   return (
@@ -19,27 +46,34 @@ export default function App() {
       <header>
         <nav className="ContainerPrimary  w-[100%] h-[70px]">
           <NavBar />
-          <NavMobile/>
+          <NavMobile />
         </nav>
       </header>
       <main className="ContainerPrimary  md:w-[100%] md:h-[730px]  ">
-        
 
-          <Banner />
+        <section className="">
+          <Banner /></section>
 
-          <Especialidades />
 
-          <Sobre />
-          <SobreMobile />
+        <section className="md:w-[100%] md:h-[730px]">
+          <Especialidades /></section>
 
-          <Projects />
-          <MobileProjects/>
 
-          <Contato />
+        <div>
+          <Sobre /></div>
 
-          <Rodape />
 
-     
+        <SobreMobile />
+        <div>
+          <Projects /></div>
+
+        <MobileProjects />
+
+        <Contato />
+
+        <Rodape />
+
+
 
       </main>
 

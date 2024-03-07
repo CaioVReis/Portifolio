@@ -49,7 +49,7 @@ function NavMobile() {
                         <Icons icon="Iconclose" />
                     </div>
 
-                    <div className="flex  flex-col text-end  text-[20px]  w-[100%]   font-semibold  mt-[10px]  ">
+                    <div className="flex list-none flex-col text-end  text-[20px]  w-[100%]   font-semibold  mt-[10px]  ">
 
                         <li type="button" className="w-[100%] h-[50px] hover:bg-[#00f7ef]"><a href="#Inicio"><p className=" text-2xl text-[#FFFFFF] hover:text-black  mr-[20px] mt-2 ">Inicio</p></a></li>
 
