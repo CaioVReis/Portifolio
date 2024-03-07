@@ -1,6 +1,6 @@
 const InfoBanner = ()=>{
 
-    window.addEventListener("load", () => {
+    window.addEventListener("click", () => {
         const MyObserver = new IntersectionObserver((entries) => {
           entries.forEach((entry) => {
             if (entry.isIntersecting){
