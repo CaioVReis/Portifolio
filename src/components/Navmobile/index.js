@@ -4,7 +4,7 @@ import Icons from "../icons"
 
 function NavMobile() {
 
-    window.addEventListener("load", () => {
+    window.addEventListener("click", () => {
         let btnmenu = document.getElementById('btn-menu')
         let menu = document.getElementById('menu-mobile')
         let overlay = document.getElementById('overlay-menu')
