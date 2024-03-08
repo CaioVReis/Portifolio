@@ -1,6 +1,6 @@
 const InfoBanner = ()=>{
 
-    window.addEventListener("load", () => {
+ 
         const MyObserver = new IntersectionObserver((entries) => {
           entries.forEach((entry) => {
             if (entry.isIntersecting){
@@ -17,7 +17,7 @@ const InfoBanner = ()=>{
         elements.forEach((element) => MyObserver.observe(element))
     
     
-    })
+   
 
 
     return(
